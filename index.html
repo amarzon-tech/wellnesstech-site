@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F3F5F7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B0F14" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="Wellness Tech LLC makes patient-education and clinician apps for kidney health. Offline, no login, no ads, and no data collection.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Wellnesstech.care — Wellness Tech LLC (Draft preview)</title>
+  <link rel="icon" type="image/svg+xml" href="./img/logo.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32.png">
+  <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script>
+    (function () {
+      try {
+        var q = new URLSearchParams(location.search).get("theme");
+        if (q === "light" || q === "dark") {
+          document.documentElement.setAttribute("data-theme", q);
+          return;
+        }
+        var t = localStorage.getItem("wt-theme");
+        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="draft-banner" role="status">Draft preview — this site has not been approved for publication</div>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./">
+        <img class="brand-mark" src="./img/logo.svg" width="32" height="32" alt="">
+        <span class="brand-name">Wellnesstech<span class="dotcare">.care</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="./#apps">Apps</a>
+        <a href="./#founders">Founders</a>
+        <a href="./privacy.html">Privacy</a>
+        <a href="./support.html">Support</a>
+      </nav>
+      <button type="button" class="theme-btn" id="theme-toggle" aria-label="Switch theme" aria-pressed="false">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M15.4 3.1A8.6 8.6 0 1 0 20.9 14 7 7 0 0 1 15.4 3.1z"/>
+        </svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2"/>
+          <path d="M12 3v1.6M12 19.4V21M3 12h1.6M19.4 12H21M5.6 5.6l1.1 1.1M17.3 17.3l1.1 1.1M18.4 5.6l-1.1 1.1M6.7 17.3l-1.1 1.1"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <p class="hero-eyebrow">Wellness Tech LLC</p>
+        <h1>Wellnesstech.care</h1>
+        <p class="hero-lede">Patient-education and clinician apps for kidney health.</p>
+        <ul class="principles" aria-label="How the apps are built">
+          <li>Offline</li>
+          <li>No login</li>
+          <li>No ads</li>
+          <li>No data collection</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mission" aria-labelledby="mission-heading">
+      <div class="wrap">
+        <div class="mission-card">
+          <h2 id="mission-heading">Our mission</h2>
+          <p>Wellness Tech LLC is a Virginia LLC, formed in 2020. We make patient-education and clinician apps for kidney health. The apps work offline, with no login, no ads, and no data collection.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="apps" aria-labelledby="apps-heading">
+      <div class="wrap">
+        <p class="section-kicker">What we make</p>
+        <div class="section-head">
+          <h2 id="apps-heading">Apps</h2>
+        </div>
+        <div class="apps-grid">
+          <article class="app-card">
+            <span class="badge badge-live">Live on the App Store</span>
+            <h3>K Swipe</h3>
+            <p>A potassium food-swipe game.</p>
+            <a class="btn" href="https://apps.apple.com/us/app/k-swipe/id6827366810" rel="noopener noreferrer">
+              View on the App Store
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </article>
+          <article class="app-card">
+            <span class="badge badge-dev">In development</span>
+            <h3>Salt Whisperer</h3>
+            <p>A sodium game for people with kidney disease or high blood pressure.</p>
+          </article>
+          <article class="app-card">
+            <span class="badge badge-dev">In development</span>
+            <h3>Nephrology Toolbox</h3>
+            <p>A collection of clinician calculators for the formulas used in nephrology.</p>
+          </article>
+          <article class="app-card">
+            <span class="badge badge-dev">In development</span>
+            <h3>CRRT &amp; PD Dosing</h3>
+            <p>Clinician tools for CRRT and peritoneal dialysis dosing.</p>
+          </article>
+          <article class="app-card">
+            <span class="badge badge-dev">In development</span>
+            <h3>Protein Planner</h3>
+            <p>An app for setting a daily protein target and choosing foods to reach it.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="founders" aria-labelledby="founders-heading">
+      <div class="wrap">
+        <p class="section-kicker">The people behind it</p>
+        <div class="section-head">
+          <h2 id="founders-heading">Founders</h2>
+        </div>
+        <div class="founders-grid">
+          <article class="founder-card">
+            <img class="founder-photo"
+                 src="./img/amar-damodar.jpg"
+                 srcset="./img/amar-damodar-320.jpg 320w, ./img/amar-damodar.jpg 640w"
+                 sizes="104px"
+                 width="640" height="640"
+                 alt="Portrait of Amar K. Damodar, MD, FASN">
+            <h3>Amar K. Damodar, MD, FASN</h3>
+            <p class="founder-role">Co-founder</p>
+            <p class="founder-bio">Amar K. Damodar, MD, FASN, is a board-certified nephrologist with Commonwealth Kidney Doctors in the Richmond, Virginia area. He has practiced nephrology since 2009, and before joining Commonwealth Kidney Doctors in 2023 he spent more than a decade with Southside Kidney Specialists, where he served as a dialysis medical director. He trained in nephrology at the State University of New York at Buffalo, is a Fellow of the American Society of Nephrology and the American College of Physicians, and is a clinical assistant professor at Liberty University College of Osteopathic Medicine. He also developed K Swipe, a free iPhone app that teaches people the potassium content of foods.</p>
+          </article>
+          <article class="founder-card">
+            <div class="founder-avatar" aria-hidden="true">KL</div>
+            <h3>Kushal Lal</h3>
+            <p class="founder-role">Co-founder</p>
+            <p class="bio-placeholder">Bio coming soon</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <a class="footer-brand" href="./">
+          <img src="./img/logo.svg" width="26" height="26" alt="">
+          Wellness Tech LLC
+        </a>
+        <p class="footer-meta">A Virginia LLC, formed in 2020.</p>
+        <p class="footer-meta">Privacy and support: <a class="email-link" href="mailto:amardamodar@gmail.com">amardamodar@gmail.com</a></p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="./#apps">Apps</a>
+        <a href="./#founders">Founders</a>
+        <a href="./privacy.html">Privacy</a>
+        <a href="./support.html">Support</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="./js/theme.js"></script>
+</body>
+</html>
